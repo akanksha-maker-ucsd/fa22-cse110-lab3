@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Meeting Minutes (Lab 2)</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Lab 2: Meeting Minutes">
+    <meta name="author" content="Akanksha Pandey">
+    <meta name="keywords" content="HTML, CSE 110, Lab 2">
+    <link rel="icon" type="image/x-icon" href="images/almond_flowers.jpeg">
+  </head>
+  
+  <nav> 
+  <a href="index.html">Home</a> |
+  <a href="#agenda">Agenda</a> |
+  <a href="#attendance">Attendance</a>
+  </nav>
+  
+  <body>
+      <header>
+          <h1>Meeting Minutes</h1>
+          <p>Author: Akanksha Pandey</p>
+          <p>Group 5, CSE 110 Fall '22</p>
+      </header>
+      <main>
+          <section>
+          <h2>Date: 10/06/2022</h2>
+          <h2 id="attendance">Members Present:</h2>
+          <ol>
+            <li>Akanksha</li>
+            <li>Grey</li>
+            <li>Alex</li>
+          </ol>
+          <h3>Not Present:</h3>
+          <ol>
+          <li>Mehreen</li>
+          <li>Amaar</li>
+          </ol>
+          <h2 id="agenda">Agenda</h2>
+          <p>
+            <span class="description">
+            <ul>
+            <li>Icebreaker Games and Activites with Group</li>
+            <li>Create Group Contract</li>
+            <li>Finalize and Sign Group Contract</li>
+            <li>Set up Weekly Meeting Times</li>
+            </ul>
+            </span>
+          </p>
+          </section>
+          <section>
+            <hr>
+            <div class="Icebreaker Activities">
+            <h2>Icebreaker Activities</h2>
+            <p>Members played <i>scribbl.io</i> and talked about their weeks as a group icebreaker.    
+            </p>
+            <img src="images/skribbl.png" alt="skribbl.io logo" width="70%" height="70%">
+            </div>
+            <div class="Brainstorming">
+            <h2>Brainstorming</h2>
+            <p>Members <em>brainstormed</em> ideas for each of the sections in the group
+                contract, such as <b>expectations for members</b> and <b>conflict resolution</b> . 
+                <strong>Members established that communication on slack is essential and members must reply withing 12 hours.</strong>     
+            </p>
+            </div>
+             <details>
+              <summary>Possible Meeting Places</summary>
+              <ul>
+            <li>Peet's Coffee </li>
+            <li>Blue Pepper</li>
+            <li>Einstein's Bagels </li>
+            <li>Starbucks </li>
+            <li>Library </li>
+            </ul>
+            </details>
+            <hr>
+            <h2>Meeting Video</h2>
+            <video width="70%" height="70%" controls>
+             <source src="multimedia/oct9th.mp4" type="video/mp4">
+            </video>
+            <h2>Meeting Audio</h2>
+            <audio controls>
+              <source src="multimedia/oct9th_audio.m4a" type="audio/mpeg">
+            </audio>
+            <hr>
+          </section>
+          <section>
+            <h2>Fashion Survey</h2>
+            <form>
+              <fieldset>
+              <legend>Personal Details:</legend>
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname"><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br><br>
+
+            <p>Please select your gender:</p>
+            <input type="radio" id="male" name="gender" value="Male">
+            <label for="male">Male</label><br>
+
+            <input type="radio" id="female" name="gender" value="Female">
+            <label for="female">Female</label><br>
+
+            <input type="radio" id="other" name="gender" value="other">
+            <label for="other">Other</label><br>
+
+            <input type="radio" id="nA" name="gender" value="nA">
+            <label for="nA">Choose to not Specify</label>
+
+            <br><br>
+            <label for="birthday">Birthday:</label>
+            <input type="date" id="birthday" name="birthday"><br><br>
+            </fieldset>
+            <p><label for="fashionDesc">Describe your Fashion this Summer in a sentence:</label></p>
+            <textarea id="fashionDesc" name="FashionDesc" rows="3" cols="70">Fashion Description Here</textarea>
+            <br>
+            <p>Choose your Favorite Fashion Aesthetics:</p>
+             <input type="checkbox" id="soft" name="soft" value="soft">
+            <label for="soft"> Soft</label><br>
+            <input type="checkbox" id="grunge" name="grunge" value="grunge">
+            <label for="grunge"> Grunge</label><br>
+            <input type="checkbox" id="academia" name="academia" value="academia">
+            <label for="academia"> Academia</label><br>
+            <input type="checkbox" id="minimalist" name="minimalist" value="minimalist">
+            <label for="minimalist"> Minimalist</label><br>
+            <input type="checkbox" id="streetwear" name="streetwear" value="streetwear">
+            <label for="streetwear"> Streetwear</label><br>
+
+            <br>
+
+            <label for="season">Choose your favorite season:</label>
+            <input list="seasons" name="season" id="season">
+
+            <datalist id="seasons">
+              <option value="Autumn">
+              <option value="Winter">
+              <option value="Summer">
+              <option value="Spring">
+            </datalist>
+            
+            
+          <br><br>
+
+            <label for="designers">Choose a designer label:</label>
+
+          <select name="designers" id="designers">
+            <option value="gucci">Gucci</option>
+            <option value="fendi">Fendi</option>
+            <option value="oscar">Oscar De La Renta</option>
+            <option value="lv">Louis Vuitton</option>
+
+          
+          </select>
+          <br><br>
+            <label for="accessory">Choose an accessory:</label>
+
+            <select id="accessory">
+              <option value="bag">Bag</option>
+              <option value="necklace">Necklace</option>
+              <option value="belt">Belt</option>
+              <option value="scarf">Scarf</option>
+            </select>
+            </form> 
+            <br>
+            <button type="button">Submit</button>
+          </section>
+      </main>
+      <footer>
+        <p>Author: Akanksha Pandey <br>
+        <a href="mailto:apandey@ucsd.edu">apandey@ucsd.edu</a></p>
+      </footer>
+  </body>
+</html>
