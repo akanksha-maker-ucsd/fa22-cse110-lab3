@@ -4,6 +4,7 @@ h1 {
   background-color: #556B2F;
   color: #FFF8DC;
   font-size: 40px;
+  text-align: center;
 }
 
 /*Body of webpage (entirety of the page) */
@@ -12,6 +13,7 @@ body {
   color: maroon;
   font-size: 15px;
   margin: 10px;
+  text-align: justify;
   
 }
 /* Intro class has date, attendance, and agenda*/
@@ -29,6 +31,8 @@ h2 {
     background-color: #8B4513;
     color: #FFF8DC;
     font-size: 160%;
+    text-decoration: underline dotted #FFF8DC;
+    text-align: center;
 }
 h3{
     font-size: 125%;
