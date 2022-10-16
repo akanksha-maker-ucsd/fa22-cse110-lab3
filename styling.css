@@ -6,13 +6,22 @@ h1 {
   font-size: 40px;
 }
 
-/*Body of webpage (entirety of the page)*/
+/*Body of webpage (entirety of the page) */
 body {
   background-color: #FFF8DC;
   color: maroon;
   font-size: 15px;
   margin: 10px;
   
+}
+/* Intro class has date, attendance, and agenda*/
+.intro{
+    border-width: 3px;
+    border-style: solid;
+    border-color: #8B4513;
+    border-radius: 2%;
+    padding: 2% 0% 2% 0%;
+    margin: 5% 1% 5% 1%;
 }
 
 /* Subheadings of meetings notes*/
@@ -25,13 +34,7 @@ h3{
     font-size: 125%;
 }
 
-/* Intro class has date, attendance, and agenda*/
-.intro{
-    border-width: 3px;
-    border-style: solid;
-    border-color: #8B4513;
-    border-radius: 2%;
-    padding: 2% 0% 2% 0%;
-    margin: 5% 1% 5% 1%;
-}
+
+
+
 
