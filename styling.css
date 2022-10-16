@@ -10,3 +10,9 @@ body {
   background-color: #FFF8DC;
   color: maroon;
 }
+
+/* Subheadings of meetings notes*/
+h2 {
+    background-color: #8B4513;
+    color: #FFF8DC;
+}
