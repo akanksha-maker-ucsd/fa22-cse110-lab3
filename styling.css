@@ -5,6 +5,7 @@ h1 {
   color: #FFF8DC;
   font-size: 40px;
   text-align: center;
+  display: block; /*headings should always be on a new line*/
 }
 
 /*Body of webpage (entirety of the page) */
@@ -14,6 +15,8 @@ body {
   font-size: 15px;
   margin: 10px;
   text-align: justify;
+  max-width: 2000px;
+  min-width: 10px;
   
 }
 /* Intro class has date, attendance, and agenda*/
@@ -22,7 +25,7 @@ body {
     border-style: solid;
     border-color: #8B4513;
     border-radius: 2%;
-    padding: 2% 0% 2% 0%;
+    padding: 2% 1% 2% 0%;
     margin: 5% 1% 5% 1%;
 }
 
@@ -33,9 +36,17 @@ h2 {
     font-size: 160%;
     text-decoration: underline dotted #FFF8DC;
     text-align: center;
+    height: 100%;
+    width: 101%;
+
 }
 h3{
     font-size: 125%;
+    
+}
+
+#hide{
+    display: none;
 }
 
 
