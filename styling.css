@@ -73,6 +73,16 @@ h3{
   color: #FFF8DC;
 }
 
+a:hover{
+    color: hsl(0, 100%, 25%);
+}
+
+button:active {
+  background-color: maroon;
+  color: whitesmoke;
+}
+
+
 
 
 
