@@ -1,3 +1,6 @@
+* {
+  color: maroon;
+}
 
 /* Main Heading of meeting minutes*/
 h1 {
@@ -13,12 +16,14 @@ h1 {
 body {
   background-color: #FFF8DC;
   color: maroon;
-  font-size: 15px;
   margin: 10px;
   text-align: justify;
   max-width: 2000px;
   min-width: 10px;
   
+}
+body, p{
+    font-size: 15px;
 }
 /*make background color tan  if on mobile*/
 @media only screen and (max-width: 600px) {
@@ -85,6 +90,10 @@ a:hover{
     color: hsl(0, 100%, 25%);
 }
 
+a[href="link"] {
+  background-color: #5F9EA0;
+}
+
 button:active {
   background-color: maroon;
   color: whitesmoke;
@@ -99,6 +108,14 @@ button:active {
 
 }
 
+#author h2{
+    background-color: #556B2F;
+}
+
+#author > p {
+    font-size: large;
+}
+
 .Brainstorming{
     display: grid;
     justify-items: stretch;
@@ -106,6 +123,17 @@ button:active {
     align-items: center;
 }
 
+.description ~ img{
+    width: max-content;
+}
+
+img + p {
+    text-align: center ;
+}
+
+p.grid-item{
+    font-size: large;
+}
 
 
 
