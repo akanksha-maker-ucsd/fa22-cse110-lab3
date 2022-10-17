@@ -34,7 +34,7 @@ h2 {
     background-color: #8B4513;
     color: #FFF8DC;
     font-size: 160%;
-    text-decoration: underline dotted #FFF8DC;
+    text-decoration: underline #FFF8DC;
     text-align: center;
     height: 100%;
     width: 101%;
@@ -42,12 +42,38 @@ h2 {
 }
 h3{
     font-size: 125%;
+    position: relative;
     
 }
 
 #hide{
     display: none;
 }
+
+.help{
+  position: fixed;
+  right: 5px; 
+  bottom: 0px;
+  background-color: #5F9EA0;
+  border-width: 3px;
+  border-style: solid;
+  border-color: #5F9EA0;
+  border-radius: 5%;
+  color: #FFF8DC;
+}
+.question{
+  position: absolute;
+  right: 5px; 
+  bottom: 23px;
+  background-color: #5F9EA0;
+  border-width: 3px;
+  border-style: solid;
+  border-color: #5F9EA0;
+  border-radius: 5%;
+  color: #FFF8DC;
+}
+
+
 
 
 
