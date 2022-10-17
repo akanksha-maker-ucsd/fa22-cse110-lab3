@@ -19,6 +19,12 @@ body {
   min-width: 10px;
   
 }
+/*make background color tan  if on mobile*/
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: #D2B48C;
+  }
+}
 /* Intro class has date, attendance, and agenda*/
 .intro{
     border-width: 3px;
